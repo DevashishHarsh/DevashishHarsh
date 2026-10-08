@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+<title id="title">Built. Tested. Repeated.</title><desc id="desc">Closing statement in large white and red type on a charcoal background.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#181a1b"/><stop offset="1" stop-color="#050505"/></linearGradient></defs>
+<rect width="1200" height="230" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="228" fill="none" stroke="#6d6862"/><path d="M0 0h1200" stroke="#f01818" stroke-width="4"/>
+<text x="40" y="52" fill="#a59e96" font-family="monospace" font-size="14" letter-spacing="3">DH / CONTINUE THE WORK</text>
+<text x="37" y="149" fill="#f4f1ed" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="900" letter-spacing="-5">BUILT.</text><text x="296" y="149" fill="#f4f1ed" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="900" letter-spacing="-5">TESTED.</text><text x="629" y="149" fill="#f01818" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="900" letter-spacing="-5">REPEATED.</text>
+<path d="M40 186h1120" stroke="#6b6560"/><text x="40" y="211" fill="#9e968d" font-family="monospace" font-size="12" letter-spacing="2">DEVASHISH HARSH  /  ROBOTICS SYSTEMS ENGINEER</text><text x="1073" y="211" fill="#f01818" font-family="monospace" font-size="13">DH_</text>
+</svg>

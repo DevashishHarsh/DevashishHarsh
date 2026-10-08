@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+<title id="title">The robotics system</title><desc id="desc">Five connected stages: sense, estimate, decide, simulate, and build.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#181a1b"/><stop offset="1" stop-color="#08090a"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#e8e1d7" stroke-opacity=".055"/></pattern></defs>
+<rect width="1200" height="310" fill="url(#bg)"/><rect width="1200" height="310" fill="url(#grid)"/><rect x="1" y="1" width="1198" height="308" fill="none" stroke="#6a6660"/>
+<path d="M32 33h60M32 33v48M1168 33h-60M1168 33v48" fill="none" stroke="#f01818" stroke-width="3"/>
+<text x="43" y="62" fill="#b6aea5" font-family="monospace" font-size="15" letter-spacing="3">01 / SYSTEM ARCHITECTURE</text><text x="963" y="62" fill="#f01818" font-family="monospace" font-size="14" letter-spacing="2">● LIVE LOOP</text>
+<path d="M130 120h940" fill="none" stroke="#f01818" stroke-width="2" stroke-dasharray="10 9"/>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="28" fill="#f3eee8" text-anchor="middle">
+<text x="149" y="177">SENSE</text><text x="369" y="177">ESTIMATE</text><text x="594" y="177">DECIDE</text><text x="819" y="177">SIMULATE</text><text x="1046" y="177">BUILD</text>
+</g>
+<g fill="#0e1011" stroke="#f01818" stroke-width="2"><circle cx="149" cy="120" r="15"/><circle cx="369" cy="120" r="15"/><circle cx="594" cy="120" r="15"/><circle cx="819" cy="120" r="15"/><circle cx="1046" cy="120" r="15"/></g>
+<g fill="#aaa39b" font-family="monospace" font-size="13" letter-spacing="1.6" text-anchor="middle"><text x="149" y="221">SENSORS</text><text x="369" y="221">STATE</text><text x="594" y="221">PLANNING</text><text x="819" y="221">TESTING</text><text x="1046" y="221">HARDWARE</text></g>
+<path d="M149 249v28h897v-28" fill="none" stroke="#8b837a" stroke-width="1.5"/><text x="600" y="272" text-anchor="middle" fill="#a79e94" font-family="monospace" font-size="11" letter-spacing="3">TELEMETRY / FEEDBACK / ITERATION</text>
+</svg>
