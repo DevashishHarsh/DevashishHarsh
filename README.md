@@ -1,87 +1,100 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/lab-console-mobile.svg" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/lab-display.svg" />
-  <img src="assets/lab-display.gif" width="100%" alt="Devashish Harsh's robotics lab terminal. Robotics systems engineer at Invictron. Featured solo projects: MDOFS, a 13-drone formation simulation with 86% success over 100 episodes; RoboSnap, modular robot assembly and URDF export; HandBot, camera-driven hand interaction; TOB, a local AI working partner connected through an ESP32 watch. Perception, autonomy, simulation, mechanical design and embedded systems." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/identity-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/identity-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/identity-dark.svg" />
+  <img src="assets/identity-light.svg" width="670" alt="Devashish Harsh — robotics systems engineer. Mechanical engineering, robotics and automation." />
 </picture>
 
-<sub>PROJECT DISPLAY / OPEN A FILE BELOW</sub>
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/presence-dark.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/presence-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/presence-dark.gif" />
+  <img src="assets/presence-light.gif" align="right" width="88" height="88" alt="A small animated perception and motion motif." />
+</picture>
 
-#### SELECT A FILE
+I'm a **robotics systems engineer** with a foundation in mechanical engineering, robotics and automation. I build systems by connecting the mechanics, the sensors and the software—and working through what happens when those pieces meet.
 
-| Formation & autonomy | Robot assembly | Human interaction |
-| :--- | :--- | :--- |
-| **[01 / MDOFS ↗](https://github.com/DevashishHarsh/Multi-Drone-PX4-RL)** | **[02 / RoboSnap ↗](https://github.com/DevashishHarsh/RoboSnap)** | **[03 / HandBot ↗](https://github.com/DevashishHarsh/OpenCV-HandBot)** |
+I'm drawn to machines that can **perceive, learn and move**. My personal work is a growing collection of solo research, simulation experiments and tools built to understand those capabilities better.
 
-**[04 / TOB research notes ↓](#research-notes)** &nbsp; · &nbsp; **[All repositories ↗](https://github.com/DevashishHarsh?tab=repositories)** &nbsp; · &nbsp; **[LinkedIn ↗](https://www.linkedin.com/in/devashishharsh/)**
+<br clear="right" />
 
-<details>
-<summary><strong>WORKSHOP DRAWER / More tools and experiments</strong></summary>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ambition-dark.svg" />
+  <img src="assets/ambition-light.svg" width="285" alt="What I want to build" />
+</picture>
 
-| File | What I use it to explore |
-| :--- | :--- |
-| [Drone-Deconflictor](https://github.com/DevashishHarsh/Drone-Deconflictor) | Generated UAV trajectories, sampled distance checks and Gaussian uncertainty modeling. Simulation data; no real flights. |
-| [DroneRL](https://github.com/DevashishHarsh/DroneRL) | SAC navigation policies trained and inspected in PyBullet. |
-| [PX4 + ROS 2 workspace](https://github.com/DevashishHarsh/px4_ros2_ws) | Setup and examples for PX4 drones in ROS 2 simulation. |
-| [xacro2urdf](https://github.com/DevashishHarsh/xacro2urdf) | Fusion 360 exporter Xacro output converted into usable URDF descriptions. |
-| [Elements-OpenCV](https://github.com/DevashishHarsh/Elements-OpenCV) | Hand gestures, animated overlays and procedural effects on webcam video. |
+I want to bring perception, intelligence and physical design together so robotic systems can act usefully in the world. I'm interested in the entire process: understanding a problem, building the system, testing its behavior and finding out what needs to change.
 
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg" />
+  <img src="assets/skills-light.svg" width="285" alt="What I work with" />
+</picture>
 
-### Research notes
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skill-1-dark.svg" /><img src="assets/skill-1-light.svg" width="110" alt="Autonomy" /></picture><br />
+      PX4 · ROS 2 · reinforcement learning<br />
+      <sub>Navigation, coordination and control.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skill-2-dark.svg" /><img src="assets/skill-2-light.svg" width="110" alt="Perception" /></picture><br />
+      OpenCV · MediaPipe · LiDAR<br />
+      <sub>Vision, hand tracking and sensor integration.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skill-3-dark.svg" /><img src="assets/skill-3-light.svg" width="110" alt="Robot models" /></picture><br />
+      URDF · Gazebo · PyBullet · RViz<br />
+      <sub>Robot descriptions and simulation workflows.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skill-4-dark.svg" /><img src="assets/skill-4-light.svg" width="110" alt="Mechanics" /></picture><br />
+      Fusion 360 · Solid Edge · Ansys FEA<br />
+      <sub>CAD, structural analysis and physical design.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skill-5-dark.svg" /><img src="assets/skill-5-light.svg" width="110" alt="Software" /></picture><br />
+      Python · ROS 2 bridges · local AI tools<br />
+      <sub>Connecting models, messages and useful actions.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skill-6-dark.svg" /><img src="assets/skill-6-light.svg" width="110" alt="Embedded" /></picture><br />
+      ESP32 · Arduino · Raspberry Pi · PID<br />
+      <sub>Devices, communication and feedback.</sub>
+    </td>
+  </tr>
+</table>
 
-<details>
-<summary><strong>01 / MDOFS — Multi-Drone Object Avoidance Formation System</strong></summary>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/practice-dark.svg" />
+  <img src="assets/practice-light.svg" width="285" alt="How I build" />
+</picture>
 
-A solo ROS 2 / PX4 simulation for user-drawn formations. My machine supported **13 drones including the leader**. The leader used LiDAR for navigation and obstacle avoidance; formation configurations could be stored onboard.
+I model the mechanics, connect the sensing and control, run the simulation and inspect the behavior. When something fails, I trace the cause and revise the system. Getting an idea to work is the beginning; understanding **why it works and where it fails** is what makes the next iteration better.
 
-I explored SAC, then PPO, which performed best in my trials. Training happened in **PyBullet**, while the multi-drone system was validated in **ROS 2 and Gazebo**. My evaluation reported **86% success across 100 simulation episodes**.
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/practice-motion-dark.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/practice-motion-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/practice-dark.gif" />
+  <img src="assets/practice-light.gif" width="360" alt="Build. Test. Validate. A subtle moving signal follows the engineering loop." />
+</picture>
 
-[Open Multi-Drone-PX4-RL ↗](https://github.com/DevashishHarsh/Multi-Drone-PX4-RL)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/code-dark.svg" />
+  <img src="assets/code-light.svg" width="285" alt="My public code" />
+</picture>
 
-</details>
+My repositories are the working record: the experiments, tools and iterations behind what I'm learning.
 
-<details>
-<summary><strong>02 / RoboSnap — Build a robot from parts</strong></summary>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/public-code-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/public-code-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/public-code-dark.svg" />
+  <img src="assets/public-code-light.svg" width="670" alt="Public GitHub repository count and primary repository languages, with the snapshot date shown." />
+</picture>
 
-A browser editor for assembling robot descriptions like LEGO: fixed attachments connect parts, and reusable joint parts provide movement. I used it to assemble arms, wheeled robots, a wheeled HandBot and spider-leg arrangements. Inspect the assembly in 3D and export a URDF package.
-
-Getting the parts to snap precisely, and accommodating different robot models, took substantial iteration. The Fusion 360 exporter workflow also led to my **xacro2urdf** tool.
-
-[Open RoboSnap ↗](https://github.com/DevashishHarsh/RoboSnap)
-
-</details>
-
-<details>
-<summary><strong>03 / HandBot — A hand in virtual space</strong></summary>
-
-MediaPipe tracks hand landmarks and maps orientation and finger motion to a simulated robotic hand in PyBullet. I built it to study how my hand appears in virtual space and how it can interact with virtual objects using a camera.
-
-Replicating the hand's mechanics and joint behavior was a major challenge. Camera depth remains a limitation. Gesture recognition is integrated and reached **88% accuracy in a later personal run**; the older public notebook reports about **83%**.
-
-[Open OpenCV-HandBot ↗](https://github.com/DevashishHarsh/OpenCV-HandBot)
-
-</details>
-
-<details open>
-<summary><strong>04 / TOB — The Ordinary Being / in development</strong></summary>
-
-A personal working partner with a personality, built around my work. The local model runs on my computer and connects to tools for conversation, launching ROS 2 nodes, inspecting topics, starting programs and monitoring running processes.
-
-The current **ESP32 watch connects over Wi-Fi** as a gateway to that system. **Web and Android interfaces and ROS-Edge are planned.** The illustrated phone shows that future interface.
-
-</details>
-
-<details>
-<summary><strong>ENGINEERING RECORD / Systems, simulation and physical design</strong></summary>
-
-I am a **robotics systems engineer at Invictron**, working from system design through building, testing and validation. My public projects are solo research and tools for the robotics community. My B.Tech in Mechanical Engineering specialized in Robotics and Automation.
-
-**Private work at Invictron:** I contribute to building and testing GPS-denied navigation and one-way UAV systems. Internal designs, results and company assets stay private.
-
-**Mechanical work:** at Polycraft Tech, I worked on compact locking hardware, prosthetic adapters, precision parts, FEA, manufacturing drawings and prototype guidance. I used Fusion 360 and Ansys to guide geometry. For the TugBot capstone, I contributed to electronics, analysis and design; only the baseplate was built.
-
-**Working stack:** PX4, ROS 2, LiDAR, SAC/PPO, OpenCV, MediaPipe, Gazebo, PyBullet, URDF, RViz, Python, Fusion 360, Solid Edge, Ansys FEA, Arduino, Raspberry Pi, ESP32 and PID control.
-
-</details>
-
-<sub>BUILD. TEST. VALIDATE. KEEP BUILDING.</sub>
+I'm here to exchange ideas with people who build and test robots. You can also find me on [LinkedIn](https://www.linkedin.com/in/devashishharsh/).
